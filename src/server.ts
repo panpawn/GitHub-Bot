@@ -5,6 +5,7 @@ import { Response } from 'request'
 import * as h from 'escape-html'
 import * as usernames from './usernames.json'
 
+
 var port = +process.env.npm_package_config_webhookport
 if (!port) {
   console.error("Start the bot using 'npm start'.")
